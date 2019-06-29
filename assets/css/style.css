@@ -1,48 +1,80 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
+body{
+	background-image: url(../images/abstract-lines-background.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+#instructions {
+	margin-bottom: 5px;
+	position: relative;
+	clear: both;
+	float: left;
+	width: 500px;
+	background-color: beige;
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
 }
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+#gemsContainer {
+	float: left;
+	clear: both;
+	
 }
-body {
-	line-height: 1;
+img{
+	height: 150px;
+	width: 200px;
 }
-ol, ul {
-	list-style: none;
+#score {
+	float: left;
+	clear: both;
+	background-color: azure;
+	width: auto;
 }
-blockquote, q {
-	quotes: none;
+#titleContainer {
+	margin-bottom: 5px;
+	position: relative;
+	float: left;
+	height: 80px;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 80px;
+	width: 400px;
+	background-color: lightcoral;
+	color: aliceblue;
+	clear: both;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+#titleName{
+	text-align: center;
+	vertical-align: middle;
+	line-height: 80px;
 }
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
+#scoreDiv {
+	float: left;
+	clear: left;
+	height: 100px;
+	line-height: 100px;
+	background-color: black;
+	color: white;
+	width: 150px;
+	margin-bottom: 5px;
+	
+	
+}
+#winLoseDiv {
+	float: left;
+	clear: right;
+	height: 100px;
+	background-color: white;
+	color: black;
+	width: 150px;
+}
+#gameScore {
+	font-size: 64px;
+}
+#scoreContainer {
+	float: left;
+	clear: both;
+	height: 100px;
+	width: 164px;
+	background-color: aquamarine
+}
+#userScore {
+	font-size: 64px;
 }
